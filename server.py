@@ -40,8 +40,6 @@ def check_winner(board, symbol):
                 return True
     return False
 
-pygame
-
 def handle_client(conn, player):
     global turn
     conn.sendall(f'{symbols[player]}'.encode())
