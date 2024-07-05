@@ -37,6 +37,8 @@ def display_message(message):
     screen.blit(label, (40, 10))
     pygame.display.update()
 
+# recieve message
+
 # Client setup
 HOST = '192.168.1.100'
 PORT = 65432
